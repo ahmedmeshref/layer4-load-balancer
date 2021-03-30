@@ -13,7 +13,7 @@ Install the following requirements for before proceeding to the app installation
 
 ### Configure Ha Proxy 
 
-- Copy the content of 'haproxy.cfg' file and paste it in your haproxy configuration file on '/etc/haproxy/'. 
+- Copy haproxy [configuration file](https://github.com/ahmedmeshref/layer4-load-balancer/blob/main/haproxy.cfg) and paste it in your haproxy configuration file ('/etc/haproxy/' on linux). 
 - Reload haproxy service. On linux, use ```sudo service haproxy reload```.
 
 ### Clone Repository
@@ -30,11 +30,9 @@ From your terminal, install all dependencies needed by executing ```npm install`
 
 ### Run App 
 
-From your terminal, run the application with ```npm start```.
-- Application instances can be access throug following endpoints [http://localhost:5000](http://localhost:5000), [http://localhost:4000](http://localhost:4000).
-- Haproxy will be running hte app on [http://localhost:8888](http://localhost:8888).
+From your terminal, run the application with ```npm start```. Two Application instances are going to be created. App can be accessed on [http://localhost:8888](http://localhost:8888).
 
 ### Test load balancer 
 
-Run the python script 'req.py' which sends 1000 requests to the application. Ha Proxy will use the two app servers interchangeably.
+Run the python script [req.py]("https://github.com/ahmedmeshref/layer4-load-balancer/blob/main/req.py"), which sends 1000 requests to the application. Ha Proxy will use the two app servers interchangeably.
 
