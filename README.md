@@ -6,7 +6,7 @@ Implement layer 4 load balancer using Ha Proxy to serve two nodejs app servers.
 ### Requirements 
 
 Install the following requirements for before proceeding to the app installation
-- [HaProxy]("https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/load_balancer_administration/install_haproxy_example1") 
+- [Ha Proxy](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/load_balancer_administration/install_haproxy_example1) 
 - [Node](https://nodejs.org/en/download/)
 
 ### Getting Started
