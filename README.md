@@ -1,5 +1,5 @@
 # load-balancer
-Application to show case layer 4 load balancer using Ha Proxy
+Implement layer 4 load balancer using Ha Proxy to serve two nodejs app servers.
 
 ## Getting Started 
 
