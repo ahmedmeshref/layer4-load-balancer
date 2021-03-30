@@ -30,7 +30,9 @@ From your terminal, install all dependencies needed by executing ```npm install`
 
 ### Run App 
 
-From your terminal, run the application with ```npm start```. Two application instances are going to run at the following endpoints [http://localhost:5000](http://localhost:5000), [http://localhost:4000](http://localhost:4000).
+From your terminal, run the application with ```npm start```.
+- Application instances can be access throug following endpoints [http://localhost:5000](http://localhost:5000), [http://localhost:4000](http://localhost:4000).
+- Haproxy will be running hte app on [http://localhost:8888](http://localhost:8888).
 
 ### Test load balancer 
 
