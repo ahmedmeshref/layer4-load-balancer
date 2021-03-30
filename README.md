@@ -32,7 +32,9 @@ From your terminal, install all dependencies needed by executing ```npm install`
 
 From your terminal, run the application with ```npm start```. Two Application instances are going to be created. App can be accessed on [http://localhost:8888](http://localhost:8888).
 
-### Test load balancer 
+### (Optional) Test load balancer 
+
+> Note: You should have python installed alongside with the requests library to perform this task. 
 
 Run the python script [req.py](https://github.com/ahmedmeshref/layer4-load-balancer/blob/main/req.py), which sends 1000 requests to the application. Ha Proxy will use the two app servers interchangeably.
 
