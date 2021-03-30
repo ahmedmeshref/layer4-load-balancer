@@ -34,5 +34,5 @@ From your terminal, run the application with ```npm start```. Two Application in
 
 ### Test load balancer 
 
-Run the python script [req.py]("https://github.com/ahmedmeshref/layer4-load-balancer/blob/main/req.py"), which sends 1000 requests to the application. Ha Proxy will use the two app servers interchangeably.
+Run the python script [req.py](https://github.com/ahmedmeshref/layer4-load-balancer/blob/main/req.py), which sends 1000 requests to the application. Ha Proxy will use the two app servers interchangeably.
 
